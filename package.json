@@ -1,0 +1,20 @@
+{
+  "name": "essential-git-setup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Numbered terminal wizard for essential Git global settings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etriii/git-setup.git"
+  },
+  "homepage": "https://github.com/Etriii/git-setup#readme",
+  "bugs": { "url": "https://github.com/Etriii/git-setup/issues" },
+  "bin": { "git-setup": "./src/cli.js" },
+  "files": ["src/"],
+  "scripts": {
+    "start": "node src/cli.js start",
+    "check": "node src/cli.js check",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22" }
+}
